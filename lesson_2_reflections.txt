@@ -4,9 +4,11 @@ A new directory named .git is created to acccomodate commits.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+Changes made in working area and to be submitted to repository are stored in staging area temporarily. The staging area serves as a rendezvous for a logical change.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+`git add' command is used to store file changes in staging area. After all the file changes in a logical change are added, use `git commit' to submit it to repository. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
